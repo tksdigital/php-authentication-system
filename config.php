@@ -11,11 +11,11 @@ define('GOOGLE_CLIENT_SECRET', 'add client secret');
 define('GOOGLE_REDIRECT_URI', 'URL of google-auth.php');
 
 // SMTP Configuration
-define('SMTP_HOST', 'smtp.tksultra.in');
-define('SMTP_USERNAME', 'notification@tksultra.in');
+define('SMTP_HOST', 'smtp.tksdigita.in');
+define('SMTP_USERNAME', 'notification@tksdigita.in');
 define('SMTP_PASSWORD', 'add Yor SMTP Password');
 define('SMTP_PORT', 465);
-define('SMTP_FROM_EMAIL', 'notification@tksultra.in');
+define('SMTP_FROM_EMAIL', 'notification@tksdigita.in');
 define('SMTP_FROM_NAME', 'TKS AUTH');
 
 // Site URL
@@ -63,3 +63,4 @@ function verifyCSRFToken($token) {
 function generateRandomString($length = 32) {
     return bin2hex(random_bytes($length));
 }
+
